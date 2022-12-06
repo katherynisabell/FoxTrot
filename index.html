@@ -1,68 +1,79 @@
 <!-- Google font feature-->
+
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<link rel="stylesheet" href="style/style.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>  
-  
-<style>
-body {
-  font-family: "Sofia", sans-serif;
-}
-</style>
-</head>
+  <meta charset="UTF-8">
+  <title>Foxtrot - Katheryn Grant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>  
+  <style>
+    body {
+      font-family: "Sofia", sans-serif;
+    }
+  </style>
+</head> 
+
+
+
 <body>
-<nav>  
-<!--Creates tab 1-->
-<button class="tablink" onclick="openPage('Welcome', this, '#B63A20')">Super Duper Top Secret Information</but>
 
-<!--Creates tab 2-->
-<button class="tablink" onclick="openPage('About', this, '#E2725b')" id="defaultOpen">About Me</button>
-</nav>
-<!-- Page 1 content-->
-<div id="Welcome" class="tabcontent">
+  <nav>  
+  <!--Creates tab 1-->
+  <button class="tablink" onclick="openPage('Welcome', this, '#B63A20')">Super Duper Top Secret Information</button>
+
+  <!--Creates tab 2-->
+  <button class="tablink" onclick="openPage('About', this, '#E2725b')" id="defaultOpen">About Me</button>
+  </nav>
   
- <!-- Page Header-->
- <center> <h3>A never been shared photo of me...</h3> 
-   
-<!-- Add image and put text over it--> 
-<figure class="textover">
-  
-<!-- Center contents --> 
+  <!-- Page 1 content-->
   <center>
-<!-- Add Image-->    
-    <img src="img/img2.jpg"alt="Wedding Dress/>
-  <figcaption>Top Secret Until 10/08/22</figcaption>
-</figure>    
-</center>  
-</div>
+    <div id="Welcome" class="tabcontent">
+      
+      <!-- Page Header-->
+      <h3>A never been shared photo of me...</h3> 
+      
+      <!-- Add image and put text over it--> 
+      <figure class="textover">
 
-<!-- Page 2 content-->
-<center>
-<div id="About" class="tabcontent">
- 
-  <!-- Page Header--> 
- <h3>Welcome to My Page!</h3>
-  
-<!--Create Bootstrap card content-->
-    <div class="card" style="width: 18rem;">
- <!-- Add image to card-->
-                                           
-<img src="img/img1.JPG"alt="Stella"/>      
-<!--Card Content-->
-  <div class="card-body">
-    <h5 class="card-title">Katheryn Grant</h5>
-    <p class="card-text"> - I am a senior at UNA studying CIS and Cyber Security. </p>
-    <p class = "card-text"> - This is a picture of my dog Stella, she is almost 8!</p>
-    <p class = "card-text"> - I get married Saturday October 8!!</p> 
     
- <!--Add link to bootstrap button within the card-->    
- <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Click to See My LinkedIn</a>
- <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check the Code</a>
- <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">See the Code</a>
-                                                                                                                   
-</div>
-</div>
-<script  src="scripts/script.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
-                               
+        <!-- Add Image-->    
+        <img src="img/img2.jpg" alt="Wedding Dress"/>
+        
+        <figcaption>Top Secret Until 10/08/22</figcaption>
+      </figure>    
+    </div>
+  </center>
+  <!-- Page 2 content-->
+  <center>
+    <div id="About" class="tabcontent">
+    
+      <!-- Page Header--> 
+      <h3>Welcome to My Page!</h3>
+      
+      <!--Create Bootstrap card content-->
+      <div class="card" style="width: 18rem;">
+        <!-- Add image to card-->                                                  
+        <img src="img/img1.JPG" alt="Stella"/>      
+          <!--Card Content-->
+            <div class="card-body">
+              <h5 class="card-title">Katheryn Grant</h5>
+              <p class="card-text"> - I am a senior at UNA studying CIS and Cyber Security. </p>
+              <p class = "card-text"> - This is a picture of my dog Stella, she is almost 8!</p>
+              <p class = "card-text"> - I get married Saturday October 8!!</p> 
+                
+              <!--Add link to bootstrap button within the card-->    
+              <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Click to See My LinkedIn</a>
+              <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check the Code</a>
+              <a href="https://www.linkedin.com/in/katheryngrant1/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">See the Code</a>                                                                                                                 
+            </div>
+      </div>
+    </div>
+  </center>
+  
+  <script  src="scripts/script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+                                
 </body>
